@@ -1,0 +1,9 @@
+@import 'variables';
+
+.header {
+	background-color: $theme-primary;
+	border-color: $theme-primary;
+	.active {
+		font-weight: 900;
+	}
+}

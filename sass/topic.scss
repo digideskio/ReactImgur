@@ -1,0 +1,21 @@
+.topic {
+    border-radius: 10px;
+	text-align: center;
+	background-color: #2b2b2b;
+	padding-top: 20px;
+	.image-preview {
+		border: 2px solid #444442;
+	    background-color: #181817;
+	    padding: 2px;
+		margin: 2px;
+		animation: fadein .65s ease-out;
+		@keyframes fadein {
+			0% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 1.0;
+			}
+		}
+	}
+}

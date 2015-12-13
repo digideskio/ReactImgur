@@ -1,0 +1,49 @@
+@import 'variables';
+
+body {
+    font-family: Arial,sans-serif;
+    color: #ddddd1;
+    height: 100%;
+    background-color: #121211;
+    margin: 0;
+    font-size: 14px;
+}
+
+// Overwriting bootstrap defaults
+a.list-group-item {
+	color: $theme-secondary;
+	background-color: $theme-primary;
+}
+a.list-group-item:hover {
+	color: $theme-primary;
+	background-color: $theme-secondary;
+}
+
+
+.navbar-default {
+	.navbar-nav>li>a {
+		color: $theme-secondary;
+		background-color: $theme-primary;
+	}
+
+	.navbar-nav>li>a:hover {
+		color: $theme-primary;
+		background-color: $theme-secondary;
+	}
+}
+
+.panel {
+	.panel-body {
+		background-color: $theme-primary;
+	}
+	.panel-heading, .panel-footer {
+		background-color: $theme-secondary;
+		border-color: $theme-secondary;
+		color: $theme-primary;
+	}
+}
+
+.list-group-item.comment-box {
+	color: $theme-primary;
+	background-color: $theme-secondary;
+}
